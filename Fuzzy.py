@@ -16,12 +16,12 @@ def fuzzy_rule(left, right):
 
 	if direction == "left":
 		if dr_dl < -8:
-			turn = -40
+			turn = -15
 		else:
 			turn = 5 * dr_dl
 	elif direction == "right":	
 		if dr_dl > 8:
-			turn = 40
+			turn = 15
 		else:
 			turn = 5 * dr_dl
 	else:	# straight
